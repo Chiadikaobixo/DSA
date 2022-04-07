@@ -1,0 +1,2 @@
+## FrequencyCounter
+This pattern uses objects or sets to collect values/frequencies of values which is usually o(n) time. This can avoid the need of nested loops or O(n^2) operations with arrays or strings.
