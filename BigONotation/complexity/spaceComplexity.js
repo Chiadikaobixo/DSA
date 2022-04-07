@@ -16,5 +16,3 @@ function double(arr){
 
     return newArr
 }
-
-console.log(double([2, 4]))
