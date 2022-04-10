@@ -18,8 +18,9 @@ In a loop the complexity is the length of the loop times or whatever happens ins
 ## Time Complexity
 How to analyze the run time of an algorithm as the size of the input increases  
 ## Run time  
-f(n) could be linear (f(n) = n)  
 f(n) could be quadratic (f(n) = n^2)  
+f(n) could be linear (f(n) = n)  
+could be binary search Log(N)  
 f(n) could be constant (f(n) = 1)  
 f(n) could be something entirely different
 

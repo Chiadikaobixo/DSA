@@ -6,3 +6,6 @@ This pattern creates pointers or value that correspond to an index or position a
 
 ## Sliding Window
 This pattern involves creating a window which can either be an array or number from one position to another. Depending on a certain condition, the window either increases or closes (and a new window is created). Its is very usefull in keeping track of a subset of data in an array or string e.t.c
+
+## Divide And Conquer
+This pattern involves dividing a data set into smaller chunks and then repeating the process with a subset of data. This pattern also decreases time complexity.
