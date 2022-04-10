@@ -33,5 +33,3 @@ const binarysearch = (arr, val) => {
    }
    return -1
 }
-
-console.log(binarysearch([1, 2, 3, 4, 5, 6, 7, 14, 15], 4))
