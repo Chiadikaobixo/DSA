@@ -4,3 +4,6 @@ Note: The two important part of a recursive function is the base case and differ
 
 # Helper Method Recursion
 This is a design pattern that is commonly used with recursion. this is commonly done when we need to compile an array or a list of data
+
+# Pure Recursion
+This is a function that is totally self contained and it is recursive and it does not have an external data structure and no nested functions.
