@@ -1,6 +1,7 @@
 // Write a function which accepts a sorted arrays and a values
 // and return the index, return -1 if item is not in the array
 
+// O(LogN) time complexity or O(1)
 const binarySearch = (arr, val) => {
     let leftPointer = 0
     let rightPointer = arr.length - 1
