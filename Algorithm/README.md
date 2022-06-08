@@ -6,3 +6,9 @@ This is a more faster form of searching, and it works on only sorted arrays. Rat
 
 # Naive string Search
 This involves searching for a larger string in a sub-string
+
+# burble sort
+it places the larger value into sorted position
+
+# selection sort
+similar to burble sort, but instead of first placing large values into sorted position, it places small values into sorted position 
