@@ -12,3 +12,6 @@ it places the larger value into sorted position
 
 # selection sort
 similar to burble sort, but instead of first placing large values into sorted position, it places small values into sorted position 
+
+# insertion sort
+taking an element, one at a time and inserting it at the right spot. i.e, it builds up the sort by gradually creating a larger left half which is always sorted
