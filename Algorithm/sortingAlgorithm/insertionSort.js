@@ -8,5 +8,3 @@ function insertionSort(arr){
     }
     return arr
 }
-
-console.log(insertionSort([5, 2, 7, 19, 1, 3]))

@@ -15,3 +15,6 @@ similar to burble sort, but instead of first placing large values into sorted po
 
 # insertion sort
 taking an element, one at a time and inserting it at the right spot. i.e, it builds up the sort by gradually creating a larger left half which is always sorted
+
+# merge sort
+it is a combination of two things, merging and sorting. it works by decomposing an array into smaller arrays of 0 - 1 elements and then building up a newly sorted array.
