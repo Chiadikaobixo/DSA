@@ -1,3 +1,4 @@
+// Time Complexity O(n LOG n) Space Complexity O(n)
 const merge = (inputArray1, inputArray2) => {
     var array = []
     let i = 0
