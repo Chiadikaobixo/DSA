@@ -21,3 +21,6 @@ it is a combination of two things, merging and sorting. it works by decomposing 
 
 # quick sort
 just like merge sort, it exploits the fact that arrays of 0 or 1 element are always sorted. it works by selecting one element (called the pivot) and finding the index where the pivot should end up in the sorted array. once the pivot is positioned properly, quick sort can be applied on either side of the pivot
+
+# radix sort
+Radix sort is a special sorting algorithm that works on list of numbers and it doesn't make comparisons between elements. it exploits that fact that information about the size of the number is encoded in number of digits (more digits means bigger number)
