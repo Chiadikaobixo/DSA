@@ -23,4 +23,4 @@ it is a combination of two things, merging and sorting. it works by decomposing 
 just like merge sort, it exploits the fact that arrays of 0 or 1 element are always sorted. it works by selecting one element (called the pivot) and finding the index where the pivot should end up in the sorted array. once the pivot is positioned properly, quick sort can be applied on either side of the pivot
 
 # radix sort
-Radix sort is a special sorting algorithm that works on list of numbers and it doesn't make comparisons between elements. it exploits that fact that information about the size of the number is encoded in number of digits (more digits means bigger number)
+Radix sort is a special sorting algorithm that works on list of numbers and it doesn't make comparisons between elements. it exploits that fact that information about the size of the number is encoded in number of digits (more digits means bigger number). Time complexity O(nk) for the best, worst and average case senerios and space complexity o(n + K). where n is the length of the array we are sorting and and K is the length of those numbers or number of digits(average)
