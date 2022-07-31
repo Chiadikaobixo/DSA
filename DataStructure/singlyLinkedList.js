@@ -41,4 +41,25 @@ class SinglyLinkedList{
         }
         return current
     }
+
+    shift(){
+        if(!this.head) return undefined
+        let currentHead = this.head
+        this.head = currentHead.next
+        this.length --
+        return currentHead
+    }
+
+    unShift(val){
+        var newNode = new Node(val)
+        if(!this.head){
+            this.head = newNode
+            this.tail = newNode
+        }else{
+            this.head = newNode.next
+            this.head = newNode
+        }
+        this.length++
+        return newNode
+    }
 }
