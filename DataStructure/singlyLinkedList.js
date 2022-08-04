@@ -82,15 +82,7 @@ class SinglyLinkedList{
         }
         return false
     }
-
-    set(index, val) {
-        let foundNode = this.get(index)
-        if (foundNode) {
-            foundNode.val = val
-            return true
-        }
-        return false
-    }
+    
     insert(index, val) {
         if (index < 0 || index > this.length) return false
 
